@@ -56,6 +56,7 @@ int netinfo(const char *node, short port) {
   }
 
   freeaddrinfo(info);
+  return 0;
 }
 
 // test main
